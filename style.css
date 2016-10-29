@@ -51,30 +51,24 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    color: blue;
 }
 
 .navigation {
   display: flex;
+  flex-basis: auto;
   flex-direction: row;
-  justify-content: flex start;
-  list-style: none;
   margin: auto;
   padding: 0;
   background: gray;
   display: block;
   padding: 10px;
-  color: white;
+  font: white;
 }
 
-.navigation{
-  font-color: white;
-  font-weight: bold;
-}
-
-.header, .main, .aside {
+.header, .main, .aside, .navigation {
   flex: 1 100%;
   padding: 10px;
+  flex-wrap:wrap;
 }
 
 .main {
@@ -82,22 +76,19 @@ ul {
   text-align: left;
 }
 
-.aside {
+.aside-1 {
   background-color: lightgray;
+  padding: 10px;
 }
 
-@media (min-width: 599px) {
-	.container {
-		flex-direction: row;
-		justify-content: center;
-    flex-wrap:wrap;
-	}
+.aside-2{
+  padding: 10px;
+  background-color: cornflowerblue;
 }
 
-@media (min-width: 799px) {
-
-	.aside-1 {
-		margin-right: auto;
-    flex-wrap:wrap;
-	}
+@media (min-width: 800px){
+    .navigation {
+      flex-flow: column;
+      justify-content: flex-end;
+  }
 }

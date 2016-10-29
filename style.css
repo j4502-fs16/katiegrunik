@@ -57,12 +57,14 @@ ul {
 .navigation {
   display: flex;
   list-style: none;
+  text-decoration-color: white;
   margin: 0;
   padding: 0;
   background: gray;
   display: block;
   padding: 10px;
   color: white;
+  flex-flow:column;
 }
 
 .header, .main, .aside {
@@ -71,7 +73,8 @@ ul {
 }
 
 .main {
-  background-color: blue;
+  {background-color: white;
+  text-align: left;
 }
 
 .aside {

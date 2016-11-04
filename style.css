@@ -86,6 +86,7 @@ ul {
   background-color: cornflowerblue;
 }
 
+
 @media (min-width: 800px){
     .navigation {
       flex-flow: column;
@@ -101,9 +102,9 @@ ul {
 
   h1{
     text-align: center;
-    font-weight: bold;
+    font-weight: normal;
   }
-  
+
   img {
     display:none;
   }

@@ -6,13 +6,13 @@
 }
 
 p{
-  color: slategrey;
-  color: #778899
-  font-size: 100%;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: normal;
+  color : slategrey;
+  color : #778899;
+  font-size : 100%;
+  font-family : Helvetica, Arial, sans-serif;
+  font-weight : normal;
   margin:0 auto;
-  border: 1px solid
+  border: 1px solid;
   text-align: center;
 }
   h1{
@@ -21,7 +21,7 @@ p{
     font-weight: bold;
   }
   h2{
-    color: #000000
+    color: #000000;
     color: black;
     text-align: right;
   }

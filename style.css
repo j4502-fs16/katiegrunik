@@ -111,11 +111,10 @@ ul {
 
   #nav ul{
     display: flex;
-    flex-flow: column;
+    flex-flow: row;
     margin: 0;
   }
   .nav li{
-    flex-flow: row;
     border-right: none;
     border-bottom: 1px solid rgba(255,255,255,0.5);
   }

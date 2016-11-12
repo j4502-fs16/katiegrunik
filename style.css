@@ -65,7 +65,7 @@ ul {
   font: white;
 }
 
-.header, .main, .aside, .navigation {
+.header, .main, .aside, .nav {
   flex: 1 100%;
   padding: 10px;
   flex-wrap:wrap;
@@ -88,7 +88,7 @@ ul {
 
 
 @media (min-width: 800px){
-    .navigation {
+    .nav {
       flex-flow: column;
       justify-content: flex-end;
   }
@@ -111,7 +111,7 @@ ul {
 
   #nav ul{
     display: flex;
-    flex-flow: column;
+    flex-flow: row;
     margin: 0;
   }
   .nav li{
@@ -130,7 +130,7 @@ ul {
     order: 3;
     margin: 10px;
   }
-  .navigation {
+  .nav {
     order: 2;
     margin: 10px;
   }

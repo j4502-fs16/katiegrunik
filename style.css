@@ -53,7 +53,7 @@ ul {
     padding: 0;
 }
 
-.navigation {
+.nav {
   display: flex;
   flex-basis: auto;
   flex-direction: row;
@@ -109,17 +109,17 @@ ul {
     display:none;
   }
 
-  #nv ul{
+  #nav ul{
     display: flex;
     flex-flow: column;
     margin: 0;
   }
-  .navigation li{
+  .nav li{
     border-right: none;
     border-bottom: 1px solid rgba(255,255,255,0.5);
   }
 
-  .navigation li:last-child {
+  .nav li:last-child {
     border-bottom: none;
   }
 .wrapper {
